@@ -1,0 +1,90 @@
+body{
+    background-color: #112D4E;
+    color: #F9F7F7;
+}
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+h2{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+img{
+    height: 10rem;
+}
+
+button{
+    background-color: #ffea00;
+    width: 8.5rem;
+    text-align: center;
+}
+
+.comp-choice{
+    position: absolute;
+    top:500px;
+    left: 45.5%;
+}
+
+.comp-heading{
+    position:relative;
+    top:50px;
+    visibility: hidden;
+}
+
+.disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.hover-effect:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.shadow-effect{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.footer{
+    position: absolute;
+    bottom:1px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.69rem;
+}
+
+#main-title{
+    padding:2rem;
+}
+
+#user-choice{
+    text-align: center;
+}
+
+#rock{
+    position: relative;
+    right: 30px;
+    top: 30px;
+}
+
+#scissors{
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+#paper{
+    position: relative;
+    top: 30px;
+}
+#comp{
+    visibility: hidden;
+}
+
+#computer-choice-rock{
+    visibility: hidden;
+}
+#computer-choice-paper{
+    visibility: hidden;
+}
+#computer-choice-scissors{
+    visibility: hidden;
+}

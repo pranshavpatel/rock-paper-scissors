@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Rock-Paper-Scissors</title>
+</head>
+<body>
+    <h1 id="main-title">ROCK PAPER SCISSORS GAME!</h1>
+    <div id="user-choice">
+        <h2 class="temp">Select Your Choice:</h2>
+        <div>
+            <button class="start-button hover-effect" id="rock"><img src="images/rock.png" alt="rock"></button>
+            <button class="start-button hover-effect" id="paper"><img src="images/paper.png" alt="paper"></button>
+            <button class="start-button hover-effect" id="scissors"><img src="images/scissors.png" alt="scissors"></button>
+        </div>
+    </div>
+    <div id="computer-choice">
+    <h2 class="comp-heading">The Computer Chose:</h2>
+    <div class="comp-choice" id="computer-choice-rock">
+        <button id=""><img src="images/rock.png" alt="rock"></button>
+    </div>
+    <div class="comp-choice" id="computer-choice-paper">
+        <button id=""><img src="images/paper.png" alt="paper"></button>
+    </div>
+    <div class="comp-choice" id="computer-choice-scissors">
+        <button id=""><img src="images/scissors.png" alt="scissors"></button>
+    </div>
+</div>
+
+    <footer class="footer">
+        <h4 class="restart"></h4>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
