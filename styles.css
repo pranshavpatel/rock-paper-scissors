@@ -1,15 +1,14 @@
 body{
     background-color: #112D4E;
     color: #F9F7F7;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
 }
 h1{
     text-align: center;
     font-family: 'Press Start 2P', cursive;
 }
-h2{
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-}
+
 
 img{
     height: 10rem;
